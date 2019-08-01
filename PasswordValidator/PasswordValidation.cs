@@ -9,7 +9,6 @@ namespace PasswordValidator
                && input.ContainsCapitalLetter()
                && input.ContainsLowercaseLetter()
                && input.IsLongerThanEightCharacter(minimalLength);
-
     }
 
 }
