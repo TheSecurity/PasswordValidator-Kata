@@ -30,7 +30,7 @@ steps:
   inputs:
     command: test
     arguments: '--configuration $(BuildConfiguration)'
-    projects: '/*.csproj'
+    projects: 'PasswordValidator.Tests/*.csproj'
     nobuild: true
 
 # Install coverlet as a global tool & generate coverage
